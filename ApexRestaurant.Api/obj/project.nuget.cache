@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lP6k7zeixMoxBtBF3jfBGs4KK+Xj4l/GblaP9TeKqXv6N2Jac3eIKjOwIHBwdjFkiHL7D9nCSH47b5LcRHE2/Q==",
+  "success": true,
+  "projectFilePath": "/Users/prerana/ApexRestaurant/ApexRestaurant.Api/ApexRestaurant.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/prerana/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/prerana/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/prerana/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/prerana/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/prerana/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/prerana/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

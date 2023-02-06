@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexRestaurant.Repository", "ApexRestaurant.Repository\ApexRestaurant.Repository.csproj", "{2E0137FB-D49A-4AE3-8845-9428D4BC7D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexRestaurant.Services", "ApexRestaurant.Services\ApexRestaurant.Services.csproj", "{54443252-58F6-49AB-908D-B83068C5F646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexRestaurant.Api", "ApexRestaurant.Api\ApexRestaurant.Api.csproj", "{6AF86A27-15E0-4272-9B76-FAE3ACA6031E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexRestaurant.Mvc", "ApexRestaurant.Mvc\ApexRestaurant.Mvc.csproj", "{8FAFABA2-28CD-4CC0-87A0-89257ADF8AE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0137FB-D49A-4AE3-8845-9428D4BC7D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0137FB-D49A-4AE3-8845-9428D4BC7D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0137FB-D49A-4AE3-8845-9428D4BC7D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0137FB-D49A-4AE3-8845-9428D4BC7D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54443252-58F6-49AB-908D-B83068C5F646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54443252-58F6-49AB-908D-B83068C5F646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54443252-58F6-49AB-908D-B83068C5F646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54443252-58F6-49AB-908D-B83068C5F646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF86A27-15E0-4272-9B76-FAE3ACA6031E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF86A27-15E0-4272-9B76-FAE3ACA6031E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF86A27-15E0-4272-9B76-FAE3ACA6031E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF86A27-15E0-4272-9B76-FAE3ACA6031E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAFABA2-28CD-4CC0-87A0-89257ADF8AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAFABA2-28CD-4CC0-87A0-89257ADF8AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAFABA2-28CD-4CC0-87A0-89257ADF8AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAFABA2-28CD-4CC0-87A0-89257ADF8AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
