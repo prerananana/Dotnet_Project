@@ -13,7 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MySql.Data.MySqlClient;
-namespace ApexRestaurant.Api
+namespace Apexrestaurant.Api
 {
     public class Startup
     {
@@ -27,7 +27,7 @@ namespace ApexRestaurant.Api
         {
             services.AddMvc(options => options.EnableEndpointRouting = false);//method 1(disable addmvc completely) --- for "Endpoint Routing does not support 'IApplicationBuilder.UseMvc(...)'". error 
              //method 1(disable addmvc completely) --- for "Endpoint Routing does not support 'IApplicationBuilder.UseMvc(...)'". error 
-            RepositoryModule.Register(services,"Server=127.0.0.1;Database=ApexRestaurantDB;uid=root;pwd=password;",GetType().Assembly.FullName);
+            RepositoryModule.Register(services,"Server=127.0.0.1;Database=apexrestaurantdb;User Id=root;password='';",GetType().Assembly.FullName);
             ServicesModule.Register(services);
             services.AddMvc();
         }
